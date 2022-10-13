@@ -1,0 +1,185 @@
+*{
+    /* margin: /0%; */
+    /* paddin/g: 0%; */
+}
+.main{
+    /* height: 100vh; */
+    background-color: aqua;
+}
+header{
+    height: 10vh;
+    
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.logo{background-color: blue;
+    flex-basis: 20%;
+    margin: 1px;
+    text-align: center;
+
+}
+.nav{
+background-color: blueviolet;
+flex-basis: 80%;
+margin: 1px;
+text-align: center;
+
+}
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+.nav ul li{
+    margin-left: 70px;
+    text-decoration: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+main{
+    background-color: pink;
+    display: flex;
+    height: 50vh;
+    margin: 10px;
+}
+.main1{
+    background-color: gray;
+    flex-basis: 50%;
+    /* margin: 10px; */
+    margin-right: 5px;
+    text-align: center;
+}
+.main2{background-color: rgb(209, 106, 106);
+flex-basis: 50%;
+/* margin: 10px; */
+margin-left: 1px;
+text-align: center;
+}
+.feature{
+    background-color: rgb(222, 203, 240);
+    display: flex;
+    height: 50vh;
+    margin: 10px;
+}
+.feature1{
+    background-color: skyblue;
+    height: 40vh;
+    width: 800px;
+
+    margin: 35px 80px 70px 90px;
+    text-align: center;
+}
+.feature2{
+    background-color:skyblue;
+    height: 40vh;
+    width: 800px;
+    margin: 35px 80px 70px 10px;
+    text-align: center;
+}
+.feature3{
+    background-color:skyblue;
+    height: 40vh;
+    width: 800px;
+    margin: 35px 80px 70px 10px;
+    text-align: center;
+}
+.aboutapp{
+    background-color: blueviolet;
+    display: flex;
+    height: 50vh;
+    margin: 10px;
+}
+
+.about1{
+    background-color: skyblue;
+    flex-basis: 40%;
+    margin: 30px 70px 30px 70px;
+    text-align: center;
+}
+.about2{
+    background-color:skyblue;
+    flex-basis: 40%;
+    margin: 30px 70px 30px 70px;
+    text-align: center;
+}
+
+.review{
+    background-color: brown;
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.review1{
+    background-color: skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+}
+.review2{
+    background-color: skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+}
+.review3{
+    background-color: skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+}
+.plan{
+    background-color: azure;
+    /* display: flex; */
+    /* backgrou nd-color: brown; */
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.basic{
+    background-color: skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+
+}
+.standard{
+    background-color:skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+}
+.premium{
+    background-color: skyblue;
+    flex-basis: 30%;
+    margin: 30px;
+    text-align: center;
+}
+.contactus{
+    background-color: rgb(138, 98, 39);
+    display: flex;
+    height: 50vh;
+    margin: 10px;
+}
+.img{
+    background-color: skyblue;
+    flex-basis: 70%;
+    margin: 30px;
+    text-align: center;
+}
+.contact{
+    background-color:skyblue;
+    flex-basis: 20%;
+    margin: 30px;
+    text-align: center;
+}
+footer{
+    background-color: skyblue;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+}
